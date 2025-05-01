@@ -14,7 +14,7 @@ export const OptOutSection = () => {
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-2 mb-4 items-start sm:items-center">
         <div className="rounded-full p-3 flex items-center justify-center">
           <img
-            src="/public/icon.png"
+            src="/icon.png"
             alt="Shield"
             className="object-fill w-full h-full rounded-full"
           />
@@ -49,7 +49,7 @@ export const OptOutSection = () => {
               className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600"
               onClick={() => setShowComponent(true)}
             >
-              <img src="/public/edit.png" alt="Edit" className="w-5 h-5" />
+              <img src="/edit.png" alt="Edit" className="w-5 h-5" />
               Configure
             </Button>
             {showComponent && (
@@ -63,7 +63,7 @@ export const OptOutSection = () => {
           <div className="bg-white border border-gray-200 rounded-lg p-4 m-4 mt-4 relative">
             <div className="absolute -top-3 -left-3 z-10">
               <img
-                src="/public/whatsapp.png"
+                src="/whatsapp.png"
                 alt="WhatsApp"
                 className="w-11 h-11"
               />

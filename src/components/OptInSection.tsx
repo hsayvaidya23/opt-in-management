@@ -46,7 +46,7 @@ export const OptInSection = () => {
               onClick={() => setShowComponent(true)}
             >
               <img 
-                src="/public/edit.png"
+                src="/edit.png"
                 alt="Edit" 
                 className="w-5 h-5"
               />
@@ -58,7 +58,7 @@ export const OptInSection = () => {
           <div className="bg-white border border-gray-200 rounded-lg p-4 m-4 mt-4 relative">
             <div className="absolute -top-3 -left-3 z-10">
               <img 
-                src="/public/whatsapp.png"
+                src="/whatsapp.png"
                 alt="WhatsApp" 
                 className="w-11 h-11"
               />
@@ -105,22 +105,4 @@ export const OptInSection = () => {
   );
 };
 
-// export const OptOutSection = () => {
-//   return (
-//     <div className="mb-8">
-//       {/* ... existing header ... */}
-      
-//       <div className="flex flex-col lg:flex-row gap-6">
-//         {/* Left Side: Opt-out Response */}
-//         <div className="bg-gray-50 rounded-lg p-4 sm:p-6 w-full lg:flex-1">
-//           {/* ... existing content ... */}
-//         </div>
-        
-//         {/* Right Side: Opt-out Keywords */}
-//         <div className="w-full lg:flex-1">
-//           {/* ... existing content ... */}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+

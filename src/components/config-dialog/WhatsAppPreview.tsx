@@ -44,7 +44,7 @@ export const WhatsAppPreview = ({ contentType }: WhatsAppPreviewProps) => {
             {contentType === "image" && (
               <>
                 <img 
-                  src="/public/people_sitting.png" 
+                  src="/people_sitting.png" 
                   alt="Meeting" 
                   className="w-full h-32 object-cover object-center rounded-md mb-4"
                 />
