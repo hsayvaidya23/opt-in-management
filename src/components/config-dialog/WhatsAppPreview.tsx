@@ -5,7 +5,7 @@ interface WhatsAppPreviewProps {
 export const WhatsAppPreview = ({ contentType }: WhatsAppPreviewProps) => {
   return (
     <div className="relative lg:sticky lg:top-6">
-      <h4 className="font-medium mb-4 hidden lg:block">Preview</h4>
+      {/* <h4 className="font-medium mb-4 hidden lg:block">Preview</h4> */}
       <div className="relative">
         <div className="relative mb-6">
           <div className="absolute -top-3 -left-3 z-10">
