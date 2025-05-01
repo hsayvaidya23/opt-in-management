@@ -10,7 +10,7 @@ export const WhatsAppPreview = ({ contentType }: WhatsAppPreviewProps) => {
         <div className="relative mb-6">
           <div className="absolute -top-3 -left-3 z-10">
             <img
-              src="/public/whatsapp.png"
+              src="/whatsapp.png"
               alt="WhatsApp"
               className="w-11 h-11"
             />

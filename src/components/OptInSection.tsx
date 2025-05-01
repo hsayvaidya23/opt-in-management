@@ -14,7 +14,7 @@ export const OptInSection = () => {
       <div className="flex gap-2 mb-4 items-center" >
         <div className="rounded-full p-3 flex items-center justify-center">
           <img 
-            src="/public/icon.png"
+            src="/icon.png"
             alt="Shield" 
             className="object-fill w-full h-full rounded-full"
           />
