@@ -24,7 +24,7 @@ const Index = () => {
 
           {/* Images positioned on top right */}
           
-          <div className="absolute right-20 -top-7 flex items-start space-x-[-20px]">
+          <div className="absolute right-20 -top-7 hidden sm:flex items-start space-x-[-20px]">
             <img
               src="/isolate.png"
               alt="Speech Bubble Background"
